@@ -1,5 +1,4 @@
-# pixel
-Home Assistant Pixel Sensor (custom component)
+# Home Assistant Pixel Sensor (custom component)
 
 Custom sensor for Home Assistant that returns pixel info of a given image. Useful for monitoring status lights of home appliances with a camera. The sensor reports approximate pixel brightness as state and pixel color as state attributes e.g:
 
@@ -11,8 +10,8 @@ Custom sensor for Home Assistant that returns pixel info of a given image. Usefu
   device_class: illuminance
 
 
-# HA Setup:
-
+### HA Setup:
+```
 sensor:
   - platform: pixel_sensor
     name: 'viessmann'
