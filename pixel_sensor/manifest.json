@@ -1,0 +1,9 @@
+{
+  "codeowners": ["@sickidolderivative"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/sickidolderivative/pixel",
+  "domain": "pixel_sensor",
+  "name": "Pixel Sensor",
+  "requirements": ["pillow"]
+}
