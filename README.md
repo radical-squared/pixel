@@ -8,7 +8,7 @@ Custom sensor for Home Assistant that returns pixel info of a given image. Usefu
   unit_of_measurement: lx
   friendly_name: viessman
   device_class: illuminance
-
+```
 
 ### HA Setup:
 
@@ -34,4 +34,5 @@ automation:
       data:
         entity_id: camera.viessman
         filename: '/share/viessmann_snapshot.jpg'
+``` 
     
