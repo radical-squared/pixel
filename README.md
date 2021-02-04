@@ -11,6 +11,9 @@ Custom sensor for Home Assistant that returns pixel info of a given image. Usefu
 
 
 ### HA Setup:
+
+Copy pixel_sensor to your custom_components folder. Then add the following to your HA configuration files:
+
 ```
 sensor:
   - platform: pixel_sensor
